@@ -1,0 +1,88 @@
+{
+    "intents": [
+        {
+            "tag": "apresentacao",
+            "patterns": ["Olá", "olá", "Oi", "oi", "Bom dia", "bom dia", "Boa tarde", "boa tarde", "Boa noite", "boa noite"],
+            "responses": ["Olá, estudante! Eu sou o FrequentlyQuestions, o assistente virtual responsável por tirar as suas dúvidas acerca do curso de Ciência da Computação da UEPB Campus VII. Sinta-se a vontade para perguntar sobre o quê você tem dúvida, como Estágio Supervisionado, TCC, PPC do curso, etc. 😁"],
+            "context": [""]
+        },
+        {
+            "tag": "funcionamentoEstagio",
+            "patterns": ["Como funciona o Estágio Supervisionado?", "Como funciona o Estágio do curso?", "Como funciona o Estágio?", "De que forma funciona o Estágio?", "O que é o Estágio?", "O Estágio é obrigatório?", "como funciona o estágio supervisionado?", "como funciona o estágio do curso?", "como funciona o estágio?", "de que forma funciona o estágio?", "o que é o estágio?", "o estágio é obrigatório?"],
+            "responses": ["O Estágio do curso é não obrigatório, ou seja, é aquele desenvolvido como atividade opcional, acrescida à carga horária regular e obrigatória. O plano de trabalho deverá justificar um mínimo de 360 (trezentos e sessenta horas) de atividades, que deverão ser cumpridas em um semestre letivo, além disso, o estágio precisa ser remunerado. As etapas do Estágio são as seguintes:\nDocumentação: Nesta fase, o estudante deve preencher e entregar os seguintes documentos à coordenação de Estágio:\nDeclaração de Matrícula (2 cópias)\nPlano de Estágio (1 cópia)\nDeclaração de Aceite de Supervisão (1 cópia)\nTermo de Compromisso (3 cópias)\nInformações Gerais e Revisão: O professor fará exposição sobre os conteúdos necessários para o correto andamento do estágio;\nRealização do Estágio: O estudante estará realizando o estágio na organização escolhida. O professor deverá fazer o acompanhamento semanal das atividades previstas no plano de atividades de cada estudante;\nRelatório Final: O estudante deverá produzir e entregar o relatório final de estágio. O professor deverá acompanhar a elaboração do relatório final e realizar a avaliação final do aluno.\nModelo para Elaboração do Relatório Final\nModelo para Elaboração de Convalidação de Estágio\nAo final do estágio, o aluno deverá apresentar um relatório e defendê-lo perante comissão designada pela Coordenação de Estágio."],
+            "context": [""]
+        },
+        {
+            "tag": "requisitosEstagio",
+            "patterns": ["Quais são os requisitos para o Estágio?", "quais são os requisitos para o estágio?", "Quais são os requisitos para fazer o Estágio", "quais são os requisitos para fazer o estágio"],
+            "responses": ["O estudante precisa estar regularmente matriculado no curso, cursando o 2º período ou um período superior e entregar os seguintes documentos à coordenação de Estágio:\nDeclaração de Matrícula (2 cópias)\nPlano de Estágio (1 cópia)\nDeclaração de Aceite de Supervisão (1 cópia)\nTermo de Compromisso (3 cópias)"],
+            "context": [""]
+        },
+        {
+            "tag": "contabilizadoEstagio",
+            "patterns": ["Como o Estágio é contabilizado?", "De qual forma o Estágio é contabilizado?", "De que forma o Estágio é contabilizado?", "como o estágio é contabilizado?", "de qual forma o estágio é contabilizado?", "de que forma o estágio é contabilizado?"],
+            "responses": ["O Estágio contabiliza uma carga horária de 360 (trezentos e sessenta) horas, após o estudante realizá-lo, estará dispensado de seis disciplinas eletivas."],
+            "context": [""]
+        },
+        {
+            "tag": "eletivasDispensadas",
+            "patterns": ["Quantas Eletivas são dispensadas?", "Qual é a quantidade de Eletivas dispensadas?", "Quantas Disciplinas Eletivas são dispensadas?", "Qual é a quantidade de Disciplinas Eletivas dispensadas?", "quantas eletivas são dispensadas?", "qual é a quantidade de eletivas dispensadas?", "quantas disciplinas eletivas são dispensadas?", "qual é a quantidade de disciplinas eletivas dispensadas?"],
+            "responses": ["Por decisão do Núcleo Docente Estruturante (NDE) do curso, ao cursar a disciplina de estágio, o estudante estará dispensado de seis disciplinas eletivas."],
+            "context": [""]
+        },
+        {
+            "tag": "documentosNecessarios",
+            "patterns": ["São necessários documentos específicos?", "Quais são os documentos necessários?", "Eu preciso de quais documentos?", "são necessários documentos específicos?", "quais são os documentos necessários?", "eu preciso de quais documentos?"],
+            "responses": ["Sim, o estudante deve preencher e entregar os seguintes documentos:\nDeclaração de Matrícula (2 cópias)\nPlano de Estágio (1 cópia)\nDeclaração de Aceite de Supervisão (1 cópia)\nTermo de Compromisso (3 cópias)"],
+            "context": [""]
+        },
+        {
+            "tag": "matriculaOpcional",
+            "patterns": ["Preciso me matricular em alguma disciplina adicional?", "Eu preciso me matricular em alguma disciplina adicional?", "preciso me matricular em alguma disciplina adicional?", "eu preciso me matricular em alguma disciplina adicional?"],
+            "responses": ["Sim, o estudante deve se matricular no componente curricular “Estágio Supervisionado”, apesar de que não precisa ser de imediato, caso o período de matrícula já tenha passado quando o estudante começou a estagiar, ele pode se matricular no período subsequente."],
+            "context": [""]
+        },
+        {
+            "tag": "oQueEhTCC",
+            "patterns": ["O que é o TCC?", "O que é o Trabalho de Conclusão de Curso?", "o que é o TCC?", "o que é o Trabalho de Conclusão de Curso?"],
+            "responses": ["O Trabalho de Conclusão de Curso (TCC) é o projeto final, o qual tem como finalidade sistematizar o conhecimento adquirido no decorrer do Curso, através do aprofundamento de estudos ou a solução de problemas com temas relacionados à prática profissional cotidiana, inserida nas realidades local, regional ou nacional; ele está organizado em dois Componentes Curriculares obrigatórios - TCC I e TCC II - com carga horária de 30h cada, e é desenvolvido mediante orientação e avaliação docente."],
+            "context": [""]
+        },
+        {
+            "tag": "funcionamentoTCC",
+            "patterns": ["Como funciona o TCC?", "Como funciona o TCC I e TCC II?", "como funciona o TCC?", "como funciona o TCC I e TCC II?"],
+            "responses": ["O TCC I tem como finalidade a preparação do projeto ou plano de trabalho, com ênfase na leitura orientada da literatura da área para fundamentação teórica metodológica do trabalho. Durante a matrícula do TCC I, o aluno deve escolher seu orientador dentre os docentes do curso. A entrega/submissão do TCC I é feita em uma data específica, seguida por avaliações.\nEnquanto o TCC II deverá dar continuidade ao planejamento e execução do plano de trabalho, culminando com a elaboração do texto do trabalho de conclusão. A entrega da versão final do TCC II é feita em uma data específica, seguida pela defesa do TCC.\n*No caso de alunos concluintes, o TCC I e II poderão ser realizados em um mesmo período."],
+            "context": [""]
+        },
+        {
+            "tag": "elaboracaoTCC",
+            "patterns": ["Como devo fazer o TCC?", "Como o TCC deve ser elaborado?", "Como devo elaborar o TCC?", "como devo fazer o TCC", "como o TCC deve ser elaborado?", "como devo elaborar o TCC?"],
+            "responses": ["O TCC pode ser elaborado sob a forma de Estudo de Caso, Artigo Científico, Produto Midiático, Monografia e/ou Relato de Experiência, ou Relatório de Projeto Experimental.\nTodo TCC, independente de sua natureza, deve ser apresentado na forma de um texto escrito; o qual deverá ser elaborado segundo critérios do Guia de Normalização Institucional, disponível no site do Sistema Integrado de Bibliotecas da UEPB e produzido conforme as orientações da Associação Brasileira de Normas Técnicas (ABNT). O documento modelo de TCC está disponível neste site: https://biblioteca.uepb.edu.br/documentos/#.\nO estudante deverá realizar a matrícula na disciplina de TCC I, no sistema, no período definido pela UEPB para a matrícula em disciplinas e posteriormente realizar a matrícula na disciplina de TCC II."],
+            "context": [""]
+        },
+        {
+            "tag": "escolhaOrientador",
+            "patterns": ["Como é a escolha do orientador?", "Como encontrar um orientador?", "Como escolher um orientador?", "como é a escolha do orientador?", "como encontrar um orientador?", "como escolher um orientador?"],
+            "responses": ["Caberá ao estudante consultar o docente sobre possível orientação e eventualmente formalizar o pedido à Coordenação, que encaminhará ao docente orientador, um Termo de Compromisso de Orientação\nO Termo de Compromisso de Orientação representará a concordância do docente e deverá ser encaminhado, assinado, à Coordenação de TCC, no prazo máximo de 30 (trinta) dias após o início do semestre letivo.\nO estudante deverá manter contato, no mínimo de uma hora semanal, com o docente orientador, para discussão e aprimoramento de seu trabalho, devidamente registrado em relatório de atividades."],
+            "context": [""]
+        },
+        {
+            "tag": "apresentacaoTCC",
+            "patterns": ["Como é a apresentação do TCC?", "Como funciona a apresentação do TCC?", "como é a apresentação do TCC?", "como funciona a apresentação do TCC?"],
+            "responses": ["O estudante deverá apresentar o TCC no tempo limite para a conclusão do curso, em conformidade com o Calendário Acadêmico e prazo previsto no PPC.\nO estudante realizará a apresentação oral do TCC em sessão aberta ao público, perante uma Banca Examinadora composta por 03 (três) membros e presidida pelo docente orientador.\nO estudante terá o prazo mínimo de 10 (dez) dias antes da data da apresentação, ocasião em que entregará 03 (três) cópias do trabalho, na Secretaria do Curso, as quais serão encaminhadas aos membros integrantes da Banca Examinadora, para leitura prévia e formulação do Parecer de Avaliação.\nO estudante deverá comparecer em dia, hora e local determinados para apresentação da versão final de seu TCC. O estudante terá de 15 (quinze) a 20 (vinte) minutos para a referida apresentação e cada membro da banca examinadora terá individualmente do mesmo tempo para as devidas considerações e questionamentos.\nCaso o estudante não obtenha a nota necessária para aprovação do TCC, poderá apresentar uma nova versão do trabalho no semestre letivo subsequente.\nApós a apresentação pública do TCC, o estudante terá um prazo de 10 (dez) dias para realizar eventuais reformulações sugeridas pela Banca Examinadora, submeter à avaliação e aprovação do orientador, e entregar à Biblioteca um exemplar em mídia eletrônica digital da versão final do trabalho.\nA nota do TCC somente será integralizada no Sistema de Registro Acadêmico, após o cumprimento das exigências previstas neste Artigo."],
+            "context": [""]
+        },
+        {
+            "tag": "areasTCC",
+            "patterns": ["Quais áreas posso explorar para desenvolver o TCC?", "Quais linhas de pesquisa posso explorar para desenvolver o TCC?", "quais áreas posso explorar para desenvolver o TCC?", "quais linhas de pesquisa posso explorar para desenvolver o TCC?"],
+            "responses": ["Existem várias áreas que o estudante pode explorar o seu Trabalho de Conclusão de Curso (TCC), sendo elas parte da linha de pesquisa do curso de Ciência da Computação:\n- Banco de Dados\n- Inteligência Artificial\n- Engenharia de Software\n- Informática na Educação\n- Sistemas Embarcados\n- Métodos Computacionais\n- Processamento Multimídia\n- Linguagem de Programação\n- Bioinformática"],
+            "context": [""]
+        },
+        {
+            "tag": "anything_else",
+            "patterns": [],
+            "responses": ["Perdão, não entendi o que você quis dizer, tente novamente!"],
+            "context": [""]
+        }
+    ]
+}
